@@ -1,0 +1,39 @@
+@media(max-width: 1280px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+
+    .home .navlink {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .home .main-inicio {
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media(max-width: 431px){
+    .home .navlink {
+        font-size: 12px;
+    }
+
+    .home .navlink button{
+        font-size: 11px;
+    }
+
+    .home .main-inicio {
+        font-size: 15px;
+    }
+
+    .home .main-inicio img{
+        max-width: 100%;
+    }
+}
